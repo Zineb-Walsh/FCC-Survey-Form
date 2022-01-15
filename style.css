@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Neonderthaw&display=swap');
+#description {
+  padding: 5px;
+  padding-top: 0;
+  color:#999999;
+  font-size:20px;
+  font-family:'Italic', monospace;
+  text-shadow: 1px 1px #f5d5;
+}
+#form-group {
+  align-content: center;
+  width: 300%;
+  background-color:#f5d5d4;
+  display:flex;
+  flex-direction:column;
+  border: 1px solid black;
+  padding: 1.5rem;
+
+}
+#survey-form{
+  margin:6px;
+}
+
+#title {
+  padding: 10px;
+  color:#999999;
+  font-size:40px;
+  font-family:'Inconsolata', monospace;
+  text-shadow: 2px 2px #f5d5;
+}
+
+h2 {
+  color:#999999;
+  font-size:25px;
+  font-family:'Luxurious Roman', cursive;
+  margin:-9px;
+  
+}
+
+.align-center{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  }
+
+.border { 
+border: 1px grey;
+  
+ }
+#survey-form{
+  color:#8c9086;
+    font-size:25px;
+  width:15rem;
+  margin-right:30rem;
+  padding: 1rem;
+  }
+
+
+.option {
+color: brown;
+}
+ 
+.form-control {
+  padding-top: 5px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 0.5rem;
+}
+body::before {
+  content:'';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: #f5d5d4;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 15, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://www.caviarfeeling.com/wp-content/uploads/2021/03/86d1b063-9183-4766-b537-9440aa51e990-e1614739997637.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.button{
+  display: flex;
+  margin-top: 2rem;
+  color: black;
+  width: 100%;
+  justify-content: center;
+  padding: 10px 0 10px 0;
+  font-size: 1rem;
+}
+
+#submit:hover {
+  color: pink;
+  background: white;
+  box-shadow: none;
+  padding: 10px 0 10px 0;
+}
+
+.form-control {
+  padding-bottom: 4px;
+}
+#dropdown {
+  font-size: 1rem;
+  margin-top: 0;
+}
+#suggestions {
+  height: 70px;
+  font-size: 0.9rem;
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  bottom: 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+footer p {
+  margin-right: 3px;
+}
+
+

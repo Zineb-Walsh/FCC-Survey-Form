@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+<body>
+
+    <main class="align-center border">
+        <h1 id="title" class="border">Nails Salon Customer Survey</h1>
+      <p id="description">How can we make your experience better? </p>
+      <body>
+        <form class="border" id="survey-form"> 
+        <div class="border" id="form-group">
+        <label id="name-label" 
+               for="name">Name:</label>
+          <input type="text"
+                 name="name"
+                 id="name"
+                 class="form-control"
+                 placeholder="Please enter your name" required>
+          <label id="email-label"
+                 for="email">Email:</label>
+          <input type="email"
+                 name="email"
+                 id="email"
+                 class="form-control"
+                 placeholder="Please enter your email" required>
+          <label id="number-label"
+                 for="number">Visits:</label>
+          <input type="number"
+                 id="number"
+                 class="form-control"
+                 max="100"
+                 min="0"
+                placeholder="How many times you visited us" required>
+          <label id="number-label"
+                 for="number">Rate your experience:</label>
+          <input type="number"
+                 id="number"
+                 class="form-control"
+                 max="5"
+                 min="1"
+                 placeholder="From 1 to 5" required>
+          <p> What treatment do you usually have?
+                    </p>
+                    <select id="dropdown"
+                            name="treatment"
+                            class="form-control" required>
+                      <option value="Manicure">Manicure</option>
+                      <option value="Acrylic extensions">Acrylic extensions</option>
+                      <option value="Gel extensions">Gel extensions</option>
+                      <option value="Gel overlay">Gel overlay</option>
+                      <option value="Pedicure">Pedicure</option> 
+          </select>
+                      
+                      <p>What made you choose our salon? </p>
+                      <label><input name="positive"
+                                    value="nail-techs"
+                                    type="checkbox">Nail techs</label>
+                      <label><input name="positive"
+                                    value="pricing"
+                                    type="checkbox">Pricing</label>
+                      <label><input name="positive"
+                                    value="services quality"
+                                    type="checkbox">Service quality</label>
+                                    <label><input name="made"
+                                                  value="free-cookies"
+                                                  type="checkbox">Free cookies</label>
+       
+                        <p>In your opinion, what can be improved? </p>
+                      <label><input name="negative"
+                                    value="pricing"
+                                    type="radio">Pricing</label>
+                      <label><input name="negative"
+                                    value="experience"
+                                    type="radio">Experience</label>
+                      <label><input name="negative"
+                                    value="booking"
+                                    type="radio">Booking methods</label>
+                                    <label><input name="negative"
+                                                  value="More services"
+                                                  type="radio">More services</label>
+      
+          <p>Any suggestions to make your next visit perfect ?</p>
+          <textarea id="suggestions"
+                    class="input-textarea"
+                    name="suggestions"
+                    placeholder="Enter your suggestions here..."></textarea>
+            
+                      <button class="button" id="submit" >Submit</button>
+          </div>
+        </form>
+        </body>
+        <footer class="footer">
+            <p>Copyright © 2022 Zineb Walsh</p>
+            <a href="https://github.com/zineb-walsh" target="_blank">
+              <i class="fab fa-github"></i
+            ></a>
+          </footer>
+      </main>
+</html>
