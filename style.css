@@ -129,4 +129,32 @@ footer p {
   margin-right: 3px;
 }
 
+@media (max-width: 700px) {
+#title {
+  font-size: 25px;
+}
 
+h2 {
+  font-size: 15px;
+}
+
+#survey-form{
+  font-size: 15px;
+}
+
+#form-group {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-left: 90%;
+  align-content: center;
+}
+
+#suggestions {
+  font-size: 0.8rem;
+}
+
+.button {
+  font-size: 0.6rem;
+}
+}
